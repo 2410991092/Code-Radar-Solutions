@@ -2,9 +2,7 @@
 int main() {
     int a;
     scanf("%d",&a);
-
-    int b=0*80000000;
-    if(a&b){
+    if(a & 0*80000000){
         printf("Set");
     }
     else{
