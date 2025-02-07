@@ -8,4 +8,4 @@ int main(){
     else{
         printf("Negative");
     }
-} 
+}
