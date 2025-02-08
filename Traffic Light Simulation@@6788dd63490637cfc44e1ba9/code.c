@@ -10,5 +10,5 @@ int main() {
     else if(a=='Y')
         printf("Slow Down");
     else
-        printf("Invalid Output");
+        printf("Invalid input");
 }
