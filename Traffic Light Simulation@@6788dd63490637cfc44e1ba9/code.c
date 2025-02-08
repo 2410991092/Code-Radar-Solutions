@@ -7,6 +7,8 @@ int main() {
         printf("Stop");
     else if(a=='G')
         printf("Go");
-    else
+    else if(a=='Y')
         printf("Slow Down");
+    else
+        printf("Invalid Output");
 }
