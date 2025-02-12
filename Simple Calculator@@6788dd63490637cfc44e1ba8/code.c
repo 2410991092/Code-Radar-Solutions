@@ -5,24 +5,20 @@ int main(){
     scanf("%c",&option);
     switch (option){
     case '+':
-        printf("Ent a and b: ");
         scanf("%d%d",&a,&b);
-        printf("Sum=%d",a+b);
+        printf("%d",a+b);
         break;
     case '-':
-        printf("Ent a and b: ");
         scanf("%d%d",&a,&b);
-        printf("sub=%d",a-b);
+        printf("%d",a-b);
         break;
     case '*':
-        printf("Ent a and b: ");
         scanf("%d%d",&a,&b);
-        printf("Mul=%d",a*b);
+        printf("%d",a*b);
         break;
     case '/':
-        printf("Ent a and b: ");
         scanf("%d%d",&a,&b);
-        printf("Div=%d",a/b);
+        printf("%d",a/b);
         break;
     default:
         printf("Wrong choice");
