@@ -17,6 +17,6 @@ int main(){
         scanf("%d%d",&a,&b);
         break;
     default:
-        printf("Wrong choice");
+        printf("error");
     }
 }
