@@ -1,6 +1,5 @@
 int main(){
     int choice;
-    printf("Ent choice(jan,feb,mar,ap,may,june,aug,sep,oct,nov ,dec)= ");
     scanf("%d",&choice);
 
     switch(choice)
