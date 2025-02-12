@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    int n,a,jasoos;
+    int n,a,jasoos=1;
     scanf("%d",&n);
     for(a=2;a<n;a++){
         if(n%a==0){
