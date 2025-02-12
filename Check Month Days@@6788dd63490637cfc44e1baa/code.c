@@ -4,27 +4,27 @@ int main(){
     switch(choice)
     {
         case 1:
-        printf("31");
-        break;
+            printf("31");
+            break;
         case 2:
-        printf("28");
-        break;
+            printf("28");
+            break;
         case 3:
-        printf("31");
-        break;
+            printf("31");
+            break;
         case 4:
-        printf("30");
-        break;
+            printf("30");
+            break;
         case 5:
-        printf("31");
-        break;
+            printf("31");
+            break;
         case 6:
-        printf("30");
-        break;
+            printf("30");
+            break;
         case 7:
-        printf("31");
-        break;
+            printf("31");
+            break;
         default:
-        printf("wrong choice");
+            printf("wrong choice");
     }
 }
