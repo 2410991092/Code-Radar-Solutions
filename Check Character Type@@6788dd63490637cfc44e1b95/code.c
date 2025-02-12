@@ -14,7 +14,7 @@ int main() {
       if(isvowel)
        printf("Vowel");
       else
-      printf("Consonent");}
+      printf("Consonant");}
     else if(isdigit(x))
      printf("Digit");
     else
