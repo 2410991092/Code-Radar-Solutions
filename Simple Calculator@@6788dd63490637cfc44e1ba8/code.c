@@ -6,19 +6,15 @@ int main(){
     switch (option){
     case '+':
         scanf("%d%d",&a,&b);
-        printf("%d",a+b);
         break;
     case '-':
         scanf("%d%d",&a,&b);
-        printf("%d",a-b);
         break;
     case '*':
         scanf("%d%d",&a,&b);
-        printf("%d",a*b);
         break;
     case '/':
         scanf("%d%d",&a,&b);
-        printf("%d",a/b);
         break;
     default:
         printf("Wrong choice");
