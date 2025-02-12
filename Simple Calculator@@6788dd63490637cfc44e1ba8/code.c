@@ -1,8 +1,8 @@
 #include<stdio.h>
 int main(){
-    char option,sum,sub,mul,div;
-    int a,b,c;
-    scanf("%c",&option);
+    char option;
+    int a,b;
+    scanf("%d%d%c",&a,&b,&option);
     switch (option){
     case '+':
         scanf("%d%d",&a,&b);
