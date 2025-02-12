@@ -6,17 +6,17 @@ int main() {
     scanf("%c",&x);
     if(isalpha(x)){
       int isvowel=0;
-      for(i=0;i>10;i++){
-        if(x==vowels[i])
+      for( int i=0;i<10;i++){
+        if(x==vowels[i]){
          isvowel=1;
-         break;
+         break;}
       }
       if(isvowel)
        printf("Vowel");
       else
       printf("Consonent");}
     else if(isdigit(x))
-    printf("Digit");
+     printf("Digit");
     else
      printf("Special Character");
      return 0;
