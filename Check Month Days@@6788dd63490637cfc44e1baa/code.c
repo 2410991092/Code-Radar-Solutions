@@ -41,6 +41,6 @@ int main(){
             printf("31");
             break;
         default:
-            printf("wrong choice");
+            printf("Invalid month");
     }
 }
