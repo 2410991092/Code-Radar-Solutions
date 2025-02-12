@@ -5,7 +5,6 @@ int main(){
     scanf("%d%d%c",&a,&b,&option);
     switch (option){
     case '+':
-    
         printf("%d",a+b);
         break;
     case '-':
@@ -15,7 +14,11 @@ int main(){
         printf("%d%d",a*b);
         break;
     case '/':
-        printf("%d",a/b);
+        if(b==0){
+            printf("error");
+        }
+        else
+            printf("%d",a/b);
         break;
     default:
         printf("error");
