@@ -10,19 +10,19 @@ int main(){
         printf("Tuesday");
         break;
     case 3:
-        printf("\nWednesday");
+        printf("Wednesday");
         break;
     case 4:
-        printf("\nThursday");
+        printf("Thursday");
         break;
     case 5:
-        printf("\nFriday");
+        printf("Friday");
         break;
     case 6:
-        printf("\nSaturday");
+        printf("Saturday");
         break;
     case 7:
-        printf("\nSunday");
+        printf("Sunday");
         break;
     default:
         printf("Invalid")
