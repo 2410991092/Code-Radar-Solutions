@@ -2,11 +2,8 @@
 int main(){
     char option,sum,sub,mul,div;
     int a,b,c;
-    printf("Ent opt(+,-,*,/): ");
     scanf("%c",&option);
-
-    switch (option)
-    {
+    switch (option){
     case '+':
         printf("Ent a and b: ");
         scanf("%d%d",&a,&b);
