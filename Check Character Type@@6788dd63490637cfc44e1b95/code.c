@@ -4,7 +4,7 @@ int main() {
     char x;
     char vowels[]={'a','e','i','o','u','A','E','I','O','U'};
     scanf("%c",&x);
-    if(isalpha(x))
+    if(isalpha(x)){
       int isvowel=0;
       for(i=0;i>10;i++){
         if(x==vowels[i])
@@ -14,7 +14,7 @@ int main() {
       if(isvowel)
        printf("Vowel");
       else
-      printf("Consonent");
+      printf("Consonent");}
     else if(isdigit(x))
     printf("Digit");
     else
