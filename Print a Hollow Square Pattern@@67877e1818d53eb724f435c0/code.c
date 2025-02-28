@@ -4,7 +4,10 @@ int main() {
     scanf("%d",&n);
     for(r=1;r<=n;r++){
         for(c=1;c<=n;c++){
-            printf("*");
+            if(c==2||c==3)
+                printf("*")
+            else
+                printf("*");
         }
         printf("\n");
     }
