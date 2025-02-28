@@ -6,7 +6,7 @@ int main() {
         for(c=1;c<=n;c++){
             if(r==2||r==3){
                 if(c==2||c==3)
-                printf("*");
+                printf(" ");
             else
                 printf("*");
             }
