@@ -5,7 +5,7 @@ int main() {
     for(r=1;r<=n;r++){
         for(c=1;c<=n;c++){
             if(r==1||r==n )
-                printf("*")
+                printf("*");
             else
                 printf(" ");
         }
