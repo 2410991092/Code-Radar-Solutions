@@ -7,5 +7,5 @@ int main(){
             printf("%d ",c);
             printf("\n");
         }
-        
+    }    
 }
