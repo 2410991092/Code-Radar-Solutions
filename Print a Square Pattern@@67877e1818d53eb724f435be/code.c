@@ -5,6 +5,6 @@ int main() {
     for(r=1;r<=n;r++){
         printf("\n*");
         for(c=1;c<=n;c++)
-            printf("*");
+            printf("* ");
     }
 }
