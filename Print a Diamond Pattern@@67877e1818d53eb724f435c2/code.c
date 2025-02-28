@@ -12,7 +12,7 @@ int main(){
     for (r=n-1;r>=1,r--){
         for (c=1;c<=n-r;c++)
             printf(" ");
-        for (c=1;c<=2*i-1;c++)
+        for (c=1;c<=2*r-1;c++)
             printf("*");
         printf("\n");
     }
