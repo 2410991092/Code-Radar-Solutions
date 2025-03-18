@@ -9,7 +9,7 @@ int main(){
         printf("ent value at [%d]: ",r);
         scanf("%d",&A[r]);
     }
-    for(r=o;r<n;r++){
+    for(r=0;r<n;r++){
         for(c=0;c<n-1-r;c++){
             if(A[c]<A[c+1]){
                 tb=A[c];
