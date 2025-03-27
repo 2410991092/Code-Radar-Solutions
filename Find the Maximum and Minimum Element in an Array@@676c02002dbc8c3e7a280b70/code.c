@@ -1,4 +1,4 @@
-#include<stdio.h
+#include<stdio.h>
 void find(int a[],int n, int *min, int *max){
     *min = *max = a[0];
     for(int i=1; i<n ;i++){
