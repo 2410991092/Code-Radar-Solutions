@@ -5,7 +5,7 @@ int peak(int a[], int n){
     if(a[0]>a[1])
         return a[0];
     for(int i=0;i < n-1; i++){
-        if(a[i]>a[i=1] && a[i] > a[i+1])
+        if(a[i]>a[i-1] && a[i] > a)
     }
 }
 int main(){
