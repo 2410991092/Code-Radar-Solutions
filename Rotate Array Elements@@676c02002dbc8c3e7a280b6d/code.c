@@ -1,13 +1,12 @@
 #include<stdio.h>
 int main(){
-    int n,k;
-    int A[n];
-    for(int i=0;i<n;i++){
-        scanf("%d",&A[i]);
+    void rev(int a[],int start,int end){
+        while(start<end){
+            int temp=a[start];
+            a[start]=a[end];
+            a[end]=temp;
+            start++;
+            end--;
+        }
     }
-    scanf("%d",&k);
-    if(k<0){
-        k=k+n;
-    }
-
 }
