@@ -8,7 +8,7 @@ void rev(int a[],int start,int end){
         end--;
     }
 }
-void rotatearray(int a[],int n;int k){
+void rotatearray(int a[],int n,int k){
     k=k%n;
     rev(a,0,n-1);
     rev(a,0,k-1);
