@@ -14,3 +14,7 @@ void rotatearray(int a[],int n;int k){
     rev(a,0,k-1);
     rev(a,k,n-1);
 }
+int main(){
+    int n,k;
+    scanf("%d",&n);
+}
