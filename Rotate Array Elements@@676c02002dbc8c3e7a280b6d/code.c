@@ -21,4 +21,11 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&a[i]);
     }
+    scanf("%d",&k);
+
+    rotatearray(a,n,k);
+    for(int i=0;i<n;i++){
+        printf("%d ",a[i]);
+    }
+    printf("\n");
 }
