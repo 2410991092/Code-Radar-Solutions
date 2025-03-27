@@ -3,9 +3,11 @@ void sorted(int a[],int n){
     for(int i=0; i<n-1 ;i++){
         if(a[i]>a[i+1]){
             printf("Not Sorted\n");
+        else 
+            printf("Sorted\n");
         }
     }
-    printf("Sorted\n");
+    
 }
 int main(){
     int n;
