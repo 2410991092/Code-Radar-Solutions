@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    int n;
+    int n,count;
     scanf("%d",&n);
     int a[n], f[n];
     for(int i=0;i<n;i++){
@@ -9,7 +9,7 @@ int main(){
     }
     for(int i=0;i<n;i++){
         if(f[i] == -1)
-            int count =1;
+            count =1;
             for(int j=i+1;j<n;j++)
                 if(a[i] == a[j]){
                     count++;
