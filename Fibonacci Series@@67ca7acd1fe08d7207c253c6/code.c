@@ -1,5 +1,5 @@
 #include<stdio.h>
-void fibonacci(int n){
+void fibonacciSeries(int n){
     int first=0,second=1,next,i;
     if(n>=1){
         printf("%d ",first);
